@@ -12,9 +12,67 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
+        double primero, segundo, resultado;
+        string operacion;
         public Form1()
         {
             InitializeComponent();
         }
+
+        private void Bot0_Click(object sender, EventArgs e)
+        {
+            textbox.Text = textbox.Text + "0";
+        }
+
+        private void Bot1_Click(object sender, EventArgs e)
+        {
+            textbox.Text = textbox.Text + "1";
+        }
+
+        private void Bot2_Click(object sender, EventArgs e)
+        {
+            textbox.Text = textbox.Text + "2";
+        }
+
+        private void Bot3_Click(object sender, EventArgs e)
+        {
+            textbox.Text = textbox.Text + "3";
+        }
+
+        private void Bot4_Click(object sender, EventArgs e)
+        {
+            textbox.Text = textbox.Text + "4";
+        }
+
+        private void Bot5_Click(object sender, EventArgs e)
+        {
+            textbox.Text = textbox.Text + "5";
+        }
+
+        private void Bot6_Click(object sender, EventArgs e)
+        {
+            textbox.Text = textbox.Text + "6";
+        }
+
+        private void Bot7_Click(object sender, EventArgs e)
+        {
+            textbox.Text = textbox.Text + "7";
+        }
+
+        private void Bot8_Click(object sender, EventArgs e)
+        {
+            textbox.Text = textbox.Text + "8";
+        }
+
+        private void Bot9_Click(object sender, EventArgs e)
+        {
+            textbox.Text = textbox.Text + "9";
+        }
+
+        private void Botpunto_Click(object sender, EventArgs e)
+        {
+            textbox.Text = textbox.Text + ".";
+        }
+
     }
 }

@@ -57,6 +57,7 @@
             this.textbox.Name = "textbox";
             this.textbox.Size = new System.Drawing.Size(314, 20);
             this.textbox.TabIndex = 0;
+            this.textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // botc
             // 
@@ -78,6 +79,7 @@
             this.bot7.TabIndex = 2;
             this.bot7.Text = "7";
             this.bot7.UseVisualStyleBackColor = false;
+            this.bot7.Click += new System.EventHandler(this.Bot7_Click);
             // 
             // bot4
             // 
@@ -88,6 +90,7 @@
             this.bot4.TabIndex = 3;
             this.bot4.Text = "4";
             this.bot4.UseVisualStyleBackColor = false;
+            this.bot4.Click += new System.EventHandler(this.Bot4_Click);
             // 
             // bot1
             // 
@@ -98,6 +101,7 @@
             this.bot1.TabIndex = 4;
             this.bot1.Text = "1";
             this.bot1.UseVisualStyleBackColor = false;
+            this.bot1.Click += new System.EventHandler(this.Bot1_Click);
             // 
             // bot0
             // 
@@ -108,6 +112,7 @@
             this.bot0.TabIndex = 5;
             this.bot0.Text = "0";
             this.bot0.UseVisualStyleBackColor = false;
+            this.bot0.Click += new System.EventHandler(this.Bot0_Click);
             // 
             // bot2
             // 
@@ -118,6 +123,7 @@
             this.bot2.TabIndex = 9;
             this.bot2.Text = "2";
             this.bot2.UseVisualStyleBackColor = false;
+            this.bot2.Click += new System.EventHandler(this.Bot2_Click);
             // 
             // bot5
             // 
@@ -128,6 +134,7 @@
             this.bot5.TabIndex = 8;
             this.bot5.Text = "5";
             this.bot5.UseVisualStyleBackColor = false;
+            this.bot5.Click += new System.EventHandler(this.Bot5_Click);
             // 
             // bot8
             // 
@@ -138,6 +145,7 @@
             this.bot8.TabIndex = 7;
             this.bot8.Text = "8";
             this.bot8.UseVisualStyleBackColor = false;
+            this.bot8.Click += new System.EventHandler(this.Bot8_Click);
             // 
             // botpunto
             // 
@@ -149,6 +157,7 @@
             this.botpunto.TabIndex = 15;
             this.botpunto.Text = ".";
             this.botpunto.UseVisualStyleBackColor = false;
+            this.botpunto.Click += new System.EventHandler(this.Botpunto_Click);
             // 
             // bot3
             // 
@@ -159,6 +168,7 @@
             this.bot3.TabIndex = 14;
             this.bot3.Text = "3";
             this.bot3.UseVisualStyleBackColor = false;
+            this.bot3.Click += new System.EventHandler(this.Bot3_Click);
             // 
             // bot6
             // 
@@ -169,6 +179,7 @@
             this.bot6.TabIndex = 13;
             this.bot6.Text = "6";
             this.bot6.UseVisualStyleBackColor = false;
+            this.bot6.Click += new System.EventHandler(this.Bot6_Click);
             // 
             // bot9
             // 
@@ -179,6 +190,7 @@
             this.bot9.TabIndex = 12;
             this.bot9.Text = "9";
             this.bot9.UseVisualStyleBackColor = false;
+            this.bot9.Click += new System.EventHandler(this.Bot9_Click);
             // 
             // botce
             // 
