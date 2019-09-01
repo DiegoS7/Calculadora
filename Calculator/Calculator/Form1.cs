@@ -74,5 +74,38 @@ namespace Calculator
             textbox.Text = textbox.Text + ".";
         }
 
+        private void Botsuma_Click(object sender, EventArgs e)
+        {
+            operacion = "+";
+            primero = double.Parse(textbox.Text);
+            textbox.Clear();
+        }
+
+        private void Botresta_Click(object sender, EventArgs e)
+        {
+            operacion = "-";
+            primero = double.Parse(textbox.Text);
+            textbox.Clear();
+        }
+        private void Botdividir_Click(object sender, EventArgs e)
+        {
+            operacion = "/";
+            primero = double.Parse(textbox.Text);
+            textbox.Clear();
+        }
+
+        private void Botmultiplicar_Click(object sender, EventArgs e)
+        {
+            operacion = "X";
+            primero = double.Parse(textbox.Text);
+            textbox.Clear();
+        }
+
+        private void Botporcentaje_Click(object sender, EventArgs e)
+        {
+            operacion = "%";
+            primero = double.Parse(textbox.Text);
+            textbox.Clear();
+        }
     }
 }

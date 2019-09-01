@@ -213,6 +213,7 @@
             this.botdividir.TabIndex = 17;
             this.botdividir.Text = "/";
             this.botdividir.UseVisualStyleBackColor = false;
+            this.botdividir.Click += new System.EventHandler(this.Botdividir_Click);
             // 
             // botresta
             // 
@@ -224,6 +225,7 @@
             this.botresta.TabIndex = 18;
             this.botresta.Text = "-";
             this.botresta.UseVisualStyleBackColor = false;
+            this.botresta.Click += new System.EventHandler(this.Botresta_Click);
             // 
             // botporcentaje
             // 
@@ -235,6 +237,7 @@
             this.botporcentaje.TabIndex = 22;
             this.botporcentaje.Text = "%";
             this.botporcentaje.UseVisualStyleBackColor = false;
+            this.botporcentaje.Click += new System.EventHandler(this.Botporcentaje_Click);
             // 
             // botigual
             // 
@@ -257,6 +260,7 @@
             this.botsuma.TabIndex = 20;
             this.botsuma.Text = "+";
             this.botsuma.UseVisualStyleBackColor = false;
+            this.botsuma.Click += new System.EventHandler(this.Botsuma_Click);
             // 
             // botmultiplicar
             // 
@@ -268,6 +272,7 @@
             this.botmultiplicar.TabIndex = 19;
             this.botmultiplicar.Text = "X";
             this.botmultiplicar.UseVisualStyleBackColor = false;
+            this.botmultiplicar.Click += new System.EventHandler(this.Botmultiplicar_Click);
             // 
             // Form1
             // 
