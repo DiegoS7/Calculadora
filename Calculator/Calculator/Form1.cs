@@ -107,5 +107,55 @@ namespace Calculator
             primero = double.Parse(textbox.Text);
             textbox.Clear();
         }
+
+        private void Botc_Click(object sender, EventArgs e)
+        {
+            textbox.Clear();
+        }
+
+        private void Botigual_Click(object sender, EventArgs e)
+        {
+            segundo = double.Parse(textbox.Text);
+            switch (operacion)
+            {
+                case "+":
+                    resultado = primero + segundo;
+                    textbox.Text = resultado.ToString();
+                    break;
+
+                case "-":
+                    resultado = primero - segundo;
+                    textbox.Text = resultado.ToString();
+                    break;
+
+                case "/":
+                    resultado = primero / segundo;
+                    textbox.Text = resultado.ToString();
+                    break;
+
+                case "*":
+                    resultado = primero * segundo;
+                    textbox.Text = resultado.ToString();
+                    break;
+
+                case "%":
+                    resultado = primero / 100 * segundo;
+                    textbox.Text = resultado.ToString();
+                    break;
+            }
+
+        }
+        private void Botce_Click(object sender, EventArgs e)
+        {
+            if (textbox.Text.Length == 1)
+            {
+                textbox.Text = "";
+            }
+            else
+            {
+                textbox.Text = textbox.Text.Substring(0, textbox.Text.Length - 1);
+            }
+
+        }
     }
 }

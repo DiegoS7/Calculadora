@@ -69,6 +69,7 @@
             this.botc.TabIndex = 1;
             this.botc.Text = "C";
             this.botc.UseVisualStyleBackColor = false;
+            this.botc.Click += new System.EventHandler(this.Botc_Click);
             // 
             // bot7
             // 
@@ -202,6 +203,7 @@
             this.botce.TabIndex = 16;
             this.botce.Text = "CE";
             this.botce.UseVisualStyleBackColor = false;
+            this.botce.Click += new System.EventHandler(this.Botce_Click);
             // 
             // botdividir
             // 
@@ -249,6 +251,7 @@
             this.botigual.TabIndex = 21;
             this.botigual.Text = "=";
             this.botigual.UseVisualStyleBackColor = false;
+            this.botigual.Click += new System.EventHandler(this.Botigual_Click);
             // 
             // botsuma
             // 
