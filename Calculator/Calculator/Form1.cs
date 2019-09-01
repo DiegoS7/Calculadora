@@ -133,7 +133,7 @@ namespace Calculator
                     textbox.Text = resultado.ToString();
                     break;
 
-                case "*":
+                case "X":
                     resultado = primero * segundo;
                     textbox.Text = resultado.ToString();
                     break;
